@@ -1,0 +1,106 @@
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+Fetching RY.TO
+Fetching SHOP.TO
+Fetching ENB.TO
+Fetching CNR.TO
+Fetching BMO.TO
+
+============ MARKET WATCH ============
+  Symbol   Last Change PctChange YearLow YearHigh
+   RY.TO 290.00   2.44      0.85  218.50   305.74
+ SHOP.TO 212.57   4.45      2.14  130.71   252.53
+  ENB.TO  68.25   0.53      0.78   62.71    80.21
+  CNR.TO 181.69   1.89      1.05  130.79   183.92
+  BMO.TO 247.75   2.54      1.04  181.61   257.88
+
+============ STATISTICS (Close) ============
+            mean mode median  st_dev ma20_latest
+RY.TO   262.5709  235 270.94 27.1240    284.6620
+SHOP.TO 183.3471  173 175.14 28.4979    226.5755
+ENB.TO   72.0024   66  71.85  4.6879     67.6870
+CNR.TO  159.9551  176 164.27 14.8067    175.0675
+BMO.TO  221.4506  242 229.39 24.7654    240.9330
+
+==== RY.TO | last 5 trading days ====
+           RY.TO.Open RY.TO.High RY.TO.Low RY.TO.Close RY.TO.Volume
+2026-11-05     294.89     295.49    285.51      285.86      3162000
+2026-11-06     285.60     287.30    283.25      284.16      2480300
+2026-11-09     286.44     289.74    285.00      288.32      5979200
+2026-11-10     288.30     290.60    287.06      287.56      3352300
+2026-11-11     289.25     290.99    287.59      290.00      1616200
+           RY.TO.Adjusted
+2026-11-05         285.86
+2026-11-06         284.16
+2026-11-09         288.32
+2026-11-10         287.56
+2026-11-11         290.00
+
+==== SHOP.TO | last 5 trading days ====
+           SHOP.TO.Open SHOP.TO.High SHOP.TO.Low SHOP.TO.Close SHOP.TO.Volume
+2026-11-05       212.39       212.64      192.74        201.23        3147500
+2026-11-06       202.52       213.51      201.35        210.47        1957700
+2026-11-09       213.38       215.35      209.00        214.86        2397200
+2026-11-10       212.91       214.00      201.74        208.12        1527700
+2026-11-11       212.00       213.76      209.73        212.57        1163400
+           SHOP.TO.Adjusted
+2026-11-05           201.23
+2026-11-06           210.47
+2026-11-09           214.86
+2026-11-10           208.12
+2026-11-11           212.57
+
+==== ENB.TO | last 5 trading days ====
+           ENB.TO.Open ENB.TO.High ENB.TO.Low ENB.TO.Close ENB.TO.Volume
+2026-11-05       68.68       69.37      67.28        67.33      10992000
+2026-11-06       66.86       67.00      65.40        66.14      10083600
+2026-11-09       66.26       67.33      65.95        66.87      16506400
+2026-11-10       66.83       68.32      66.41        67.72      15828500
+2026-11-11       68.03       68.44      67.69        68.25       7127300
+           ENB.TO.Adjusted
+2026-11-05           67.33
+2026-11-06           66.14
+2026-11-09           66.87
+2026-11-10           67.72
+2026-11-11           68.25
+
+==== CNR.TO | last 5 trading days ====
+           CNR.TO.Open CNR.TO.High CNR.TO.Low CNR.TO.Close CNR.TO.Volume
+2026-11-05      180.77      182.06     176.03       177.24       1525700
+2026-11-06      175.50      177.30     173.82       175.21       1233300
+2026-11-09      176.38      179.99     175.46       179.45       1513900
+2026-11-10      178.82      180.45     178.27       179.80       1194100
+2026-11-11      179.15      181.97     179.15       181.69       1030900
+           CNR.TO.Adjusted
+2026-11-05          177.24
+2026-11-06          175.21
+2026-11-09          179.45
+2026-11-10          179.80
+2026-11-11          181.69
+
+==== BMO.TO | last 5 trading days ====
+           BMO.TO.Open BMO.TO.High BMO.TO.Low BMO.TO.Close BMO.TO.Volume
+2026-11-05      248.78      249.75     240.91       241.70       2442900
+2026-11-06      240.22      243.80     239.79       241.42       2565600
+2026-11-09      243.79      247.07     243.34       245.78       2825800
+2026-11-10      245.65      247.92     244.75       245.21       2499700
+2026-11-11      245.48      248.81     245.14       247.75       1901000
+           BMO.TO.Adjusted
+2026-11-05          241.70
+2026-11-06          241.42
+2026-11-09          245.78
+2026-11-10          245.21
+2026-11-11          247.75
+
+Saved candlestick charts for: RY.TO, SHOP.TO, ENB.TO, CNR.TO, BMO.TO 
